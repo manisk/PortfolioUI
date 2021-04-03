@@ -1,0 +1,22 @@
+{
+    "name": "portfolioui",
+    "version": "1.0.0",
+    "description": "Responsive web design using HTML, SCSS and bootstrap",
+    "main": "index.js",
+    "scripts": {
+        "scss": "node-sass --watch scss/ -o css/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/manisk/PortfolioUI.git"
+    },
+    "author": "manisk.kumar38@gmail.com",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/manisk/PortfolioUI/issues"
+    },
+    "homepage": "https://github.com/manisk/PortfolioUI#readme",
+    "dependencies": {
+        "bootstrap": "^4.6.0"
+    }
+}
