@@ -9,14 +9,39 @@ body {
 }
 
 h1 {
-    font-weight: bolder;
+    font-weight: 700;
     font-size: $font-size-xxl;
+}
+
+h2 {
+    font-size: $font-size-xl;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: $font-size-lg;
+    font-weight: 700;
 }
 
 .font-medium-plus {
     font-size: $font-size-md-plus;
 }
 
-.bg-red {
-    background-color: $color-red;
+.bg {
+    &-red {
+        background-color: $color-red;
+    }
+    &-blue-light {
+        background-color: $color-blue-light;
+    }
+}
+
+.viewall {
+    color: $color-blue;
+    cursor: pointer;
+}
+
+.nav-item .nav-link {
+    font-weight: 700;
+    color: $color-black!important;
 }

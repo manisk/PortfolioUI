@@ -7194,11 +7194,30 @@ body {
   font-size: 16px; }
 
 h1 {
-  font-weight: bolder;
+  font-weight: 700;
   font-size: 44px; }
+
+h2 {
+  font-size: 30px;
+  font-weight: 700; }
+
+h3 {
+  font-size: 26px;
+  font-weight: 700; }
 
 .font-medium-plus {
   font-size: 20px; }
 
 .bg-red {
   background-color: #FF6464; }
+
+.bg-blue-light {
+  background-color: #EDF7FA; }
+
+.viewall {
+  color: #00A8CC;
+  cursor: pointer; }
+
+.nav-item .nav-link {
+  font-weight: 700;
+  color: #000 !important; }
