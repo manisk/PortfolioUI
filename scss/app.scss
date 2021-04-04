@@ -1,5 +1,22 @@
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 @import 'config.scss';
 body {
-    background-color: #fff;
+    background-color: $color-bg;
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+    font-size: $font-size-md;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: $font-size-xxl;
+}
+
+.font-medium-plus {
+    font-size: $font-size-md-plus;
+}
+
+.bg-red {
+    background-color: $color-red;
 }
