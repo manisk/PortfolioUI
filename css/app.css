@@ -7191,7 +7191,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Heebo', sans-serif;
-  font-size: 16px; }
+  font-size: 16px;
+  color: #21243D; }
 
 h1 {
   font-weight: 700;
@@ -7208,11 +7209,23 @@ h3 {
 .font-medium-plus {
   font-size: 20px; }
 
+.font-badge {
+  font-size: 18px; }
+
+.font-subtitle {
+  font-size: 22px; }
+
 .bg-red {
   background-color: #FF6464; }
 
 .bg-blue-light {
   background-color: #EDF7FA; }
+
+.bg-night {
+  background-color: #21243D; }
+
+.color-light {
+  color: #8695A4; }
 
 .viewall {
   color: #00A8CC;
@@ -7221,3 +7234,11 @@ h3 {
 .nav-item .nav-link {
   font-weight: 700;
   color: #000 !important; }
+
+.user-image {
+  background-image: url(../img/my_pic.jpeg);
+  width: 80%;
+  max-width: 200px;
+  aspect-ratio: 1;
+  background-size: 100%;
+  background-position: center; }
