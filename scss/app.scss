@@ -34,6 +34,18 @@ h3 {
     &-subtitle {
         font-size: $font-size-subtitle;
     }
+    &-xxl {
+        font-size: $font-size-xxl;
+    }
+    &-wrk-detl {
+        font-size: $font-size-wrk;
+    }
+}
+
+.font {
+    &-weight-mdium {
+        font-weight: $font-weight-md;
+    }
 }
 
 .bg {
@@ -59,9 +71,8 @@ h3 {
     cursor: pointer;
 }
 
-.nav-item .nav-link {
-    font-weight: 700;
-    color: $color-black!important;
+.navbar-light .navbar-nav .nav-link.active {
+    color: $color-red!important;
 }
 
 .user-image {
@@ -71,4 +82,8 @@ h3 {
     aspect-ratio: 1;
     background-size: 100%;
     background-position: center;
+}
+
+.activetab {
+    color: $color-red!important;
 }
