@@ -87,3 +87,67 @@ h3 {
 .activetab {
     color: $color-red!important;
 }
+
+//media querry 
+@media (max-width: $tablet) {
+    .navbar {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .profile_img {
+        flex-direction: column-reverse;
+    }
+    h1 {
+        font-weight: 700;
+        font-size: $font-size-smlscreen;
+    }
+    h2 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    h3 {
+        font-size: $font-size-subtitle;
+        font-weight: 700;
+    }
+    .smltext_center {
+        text-align: center;
+        margin-top: 5%;
+    }
+    .btn_center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .font-subtitle {
+        text-align: center;
+        width: 100%!important;
+        font-size: $font-size-badge;
+    }
+    .viewall {
+        display: none;
+    }
+    .sml_screen_styl {
+        flex-direction: column;
+        align-items: center;
+    }
+    .bottom_mr {
+        margin-bottom: 4%;
+    }
+    .sml_screen_img {
+        width: 100%;
+    }
+    .font {
+        &-badge {
+            font-size: $font-size-md;
+        }
+        &-xxl {
+            font-size: $font-size-lg;
+        }
+    }
+}
+
+@media (min-width: 769px) {
+    .mt-left {
+        margin-left: 4%;
+    }
+}
